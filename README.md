@@ -12,3 +12,6 @@ Obstacles appearing on the perimeter serve as your countdown to the next mission
 
 Endless Mode
 Upon reaching the third mission (the 6x6 grid), the game enters an "endless" mode. This allows you to continue playing indefinitely, aiming for higher scores and bonuses. In the third mission, you'll encounter greater bonus opportunities, providing an exciting challenge as you strive for top scores.
+
+Source Code
+The slot.cpp file is in the src folder, feel free to use it, modify it or give any suggestions to write it smarter. You may need a raylib premake package to use this code. Please remember that there're open-source fonts and icons which only allow personal usage.
