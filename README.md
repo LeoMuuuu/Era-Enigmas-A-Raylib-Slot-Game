@@ -22,4 +22,4 @@ Upon reaching the third mission (the 6x6 grid), the game enters an "endless" mod
 Source Code
 
 
-The slot.cpp file is in the src folder, feel free to use it, modify it or give any suggestions to write it smarter. You may need a raylib premake package to use this code. Please remember that there're open-source fonts and icons which only allow personal usage.
+The slot.cpp file is in the src folder, feel free to use it for fun, modify it or give any suggestions to make it smarter. You may need a raylib premake package to use this code. Please remember that there're open-source fonts and icons which only allow personal usage.
