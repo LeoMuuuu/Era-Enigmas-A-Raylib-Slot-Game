@@ -23,3 +23,5 @@ Source Code
 
 
 The slot.cpp file is in the src folder, feel free to use it for fun, modify it or give any suggestions to make it smarter. You may need a raylib premake package to use this code. Please remember that there're open-source fonts and icons which only allow personal usage.
+
+![Screenshot 2023-06-29 233628](https://github.com/LeoMuuuu/Era-Enigmas-A-Raylib-Slot-Game/assets/123526781/e0515e85-4e63-4109-9f40-65c209d9d109)
