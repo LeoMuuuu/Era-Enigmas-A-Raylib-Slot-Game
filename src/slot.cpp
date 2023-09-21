@@ -3,7 +3,6 @@
 #include <ctime>
 #include <vector>
 #include <raylib.h>
-#include "slot.hpp"
 #include <fstream>
 #include <functional>
 #include <string>
@@ -400,23 +399,23 @@ void Test() {
     srand(time(NULL));
     Mission1.initReplenishBoard4(Mission1.replenishboard);
 
-    std::cout << "Initial£º" << std::endl;
+    std::cout << "InitialÂ£Âº" << std::endl;
     Mission1.printBoard4(Mission1.board);
     std::vector<std::vector<std::vector<int>>> connectionmap;
     connectionmap = Mission1.ConnectionDetect(Mission1.board);
     Mission1.RemoveConnection(Mission1.board, connectionmap);
 
-    std::cout << "Canceled£º" << std::endl;
+    std::cout << "CanceledÂ£Âº" << std::endl;
     Mission1.printBoard4(Mission1.board);
 
-    std::cout << "Fallen£º" << std::endl;
+    std::cout << "FallenÂ£Âº" << std::endl;
     Mission1.DropDown(Mission1.board);
     Mission1.printBoard4(Mission1.board);
 
-    std::cout << "Replenish£º" << std::endl;
+    std::cout << "ReplenishÂ£Âº" << std::endl;
     Mission1.printBoard4(Mission1.replenishboard);
 
-    std::cout << "After£º" << std::endl;
+    std::cout << "AfterÂ£Âº" << std::endl;
     std::vector<std::vector<int>> replenishmap;
     replenishmap = Mission1.ReplenishMap(connectionmap);
     Mission1.Replenish(Mission1.board, Mission1.replenishboard, replenishmap);
